@@ -1,0 +1,34 @@
+nav.navbar,nav.navbar .container {
+    padding: 0;
+}
+
+@media (max-width:560px){
+    nav.navbar {
+        background-color: white !important;
+    }  
+    .icones {
+        background: black;
+        width: 50%;
+        padding: 0 10px;
+        left: 15px;
+        position: relative;
+    }
+    ul.navbar-nav  {
+        background: black;
+        top: 70px;
+        width: 100%;
+        left: 0;
+    }
+    ul.dropdown-menu.show {
+        background: rgb(44 44 44 / 59%);
+         
+    }
+}
+@media (min-width:500px){
+
+  
+    .icones a {
+        padding: 0 15px;
+        cursor: pointer;
+    }
+}
